@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link class="icone-da-pagina" rel="shortcut icon" href="./src/imagens/./picareta-diamante.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    
+    <title>Minecraft - O Filme</title>
+</head>
+
+<body>
+
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/Video/Minecraft-Trailer.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./src/imagens/picareta-diamante.png" alt="Logo Picareta de diamante">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/imagens/Titulofilme.png" alt="Imagem do título do filme">
+            <p class="descricao">Era apenas mais um dia regular em Minecraft, cortando árvores e procurando por
+                diamantes, mas então, a nação do fogo atacou de repente. Agora, nos juntamos ao nosso herói nas mais
+                estelares aventuras através da floresta suicida japonesa </p>
+            <button class="botao-trailer"> Veja o trailer</button>
+        </div>
+        <img class="mine" src="./src/imagens/Personagensmine.png">
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="./src/Video/Minecraft-Trailer.mp4" title="Trailer oficial" frameborder="1" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
